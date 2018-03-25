@@ -4,7 +4,9 @@
   "description": "UI Layer of the Goat Store, using Vue.js",
   "main": "src/index.js",
   "scripts": {
-    "dev": "poi src/index.js"
+    "dev": "poi",
+    "build": "poi build",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
   },
   "homepage": "https://github.com/euriphides/goat-store-ui-vue#readme",
   "devDependencies": {
+    "dotenv": "^5.0.1",
     "poi": "^9.6.13",
     "standard": "^10.0.3"
   }
