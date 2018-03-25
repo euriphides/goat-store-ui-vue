@@ -1,0 +1,34 @@
+{
+  "name": "goat-store-ui-vue",
+  "version": "1.0.0",
+  "description": "UI Layer of the Goat Store, using Vue.js",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "poi src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euriphides/goat-store-ui-vue.git"
+  },
+  "keywords": [
+    "Goats",
+    "Vue.js",
+    "fluffy"
+  ],
+  "author": "euriphides@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": "8.x"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "bugs": {
+    "url": "https://github.com/euriphides/goat-store-ui-vue/issues"
+  },
+  "homepage": "https://github.com/euriphides/goat-store-ui-vue#readme",
+  "devDependencies": {
+    "poi": "^9.6.13",
+    "standard": "^10.0.3"
+  }
+}
