@@ -13,5 +13,6 @@ module.exports = {
   env: {
     API_HOST
   },
+  homepage: './',
   removeDist: true
 }
