@@ -13,6 +13,6 @@ module.exports = {
   env: {
     API_HOST
   },
-  homepage: './',
+  homepage: (process.env.NODE_ENV === 'development') ? undefined : '/goat-store-ui-vue/',
   removeDist: true
 }
