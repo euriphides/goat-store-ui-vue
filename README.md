@@ -1,6 +1,10 @@
 # Goat Store UI Vue
 
-A Vue front to the [goat-store api](https://github.com/euriphides/goat-store)
+A Vue front to the [goat-store api](https://github.com/euriphides/goat-store) 
+
+## Demo
+
+https://euriphides.github.io/goat-store-ui-vue/
 
 ## Install
 
