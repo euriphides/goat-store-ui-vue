@@ -32,6 +32,7 @@
   "devDependencies": {
     "dotenv": "^5.0.1",
     "poi": "^9.6.13",
+    "push-dir": "^0.4.1",
     "standard": "^10.0.3"
   }
 }
