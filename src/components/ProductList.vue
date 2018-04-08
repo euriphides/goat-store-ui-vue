@@ -1,11 +1,12 @@
 <template>
-  <div>
-    <h1>{{state.title}}</h1>
-    <div class="list">
+  <div class="product-list row">
+    <div
+      v-for="item in products"
+      :key="item._id"
+      class="col-sm-6 col-lg-3 d-flex p-2"
+    >
       <product-list-item
-        v-for="item in state.products"
         :value="item"
-        :key="item._id"
       />
     </div>
   </div>
@@ -23,8 +24,8 @@
       ProductListItem
     },
     props: {
-      state: {
-        type: Object,
+      products: {
+        type: Array,
         required: true
       }
     }

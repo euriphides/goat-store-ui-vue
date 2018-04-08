@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import ProductList from './components/ProductList'
+import App from './components/App'
 
 const host = process.env.API_HOST
 const get = async (path) => {
@@ -19,7 +19,7 @@ const get = async (path) => {
 
 window.app = new Vue({
   el: '#app',
-  components: { ProductList },
+  components: { App },
   data: {
     state: {
       title: 'Goat Store',
@@ -33,7 +33,7 @@ window.app = new Vue({
   },
   render (createElement) {
     return createElement(
-      'product-list',
+      'app',
       {
         props: {
           state: this.state
